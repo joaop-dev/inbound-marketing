@@ -16,7 +16,6 @@ body {
 .container {
     display: block;
     float: left;
-    padding: 20%;
     width: 100%;
     margin: 0 auto;
 }
