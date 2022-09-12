@@ -16,8 +16,10 @@ body {
 .container {
     display: block;
     float: left;
-    width: 100%;
+    padding: 20px;
+    max-width: 100%;
     margin: 0 auto;
+    max-width: 1198px;
 }
 
 header {
@@ -46,6 +48,11 @@ h2 {
 p {
     margin-bottom: 10px;
     line-height: 1.4;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 section {
@@ -85,8 +92,12 @@ nav a:hover {
 section article {
     display: block;
     float: left;
-    width: 70%;
+    width: 65%;
     color: #6e6e73;
+}
+
+.article {
+    border-bottom: 1px solid #1d1d1f;
 }
 
 footer {
@@ -104,6 +115,11 @@ footer small {
     display: block;
 }
 
-cog-branding cog-branding--minimal {
-    visibility: hidden !important;
+.cognito {
+    height: 375px !important;
+    overflow: hidden !important;
+}
+
+#tenho-interesse {
+    padding-top: 60px;
 }
