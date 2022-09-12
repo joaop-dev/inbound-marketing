@@ -14,8 +14,7 @@ body {
 }
 
 .container {
-    display: block;
-    float: left;
+    display: flex;
     padding: 20px;
     max-width: 100%;
     margin: 0 auto;
@@ -29,6 +28,11 @@ header {
     padding: 20px;
     width: 100%;
     border-bottom: 1px solid #1d1d1f;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
 }
 
 h1{
@@ -122,4 +126,16 @@ footer small {
 
 #tenho-interesse {
     padding-top: 60px;
+}
+
+@medi (max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    }
+}
+
+.container {
+    padding-left: 1%;
+    padding-right: 1%;
 }
