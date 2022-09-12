@@ -103,3 +103,7 @@ footer small {
     font-size: 80%;
     display: block;
 }
+
+cog-branding cog-branding--minimal {
+    visibility: hidden !important;
+}
